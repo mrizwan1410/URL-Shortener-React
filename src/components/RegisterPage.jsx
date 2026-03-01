@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import TextField from './TextField';
 import { Link, useNavigate } from 'react-router-dom';
-import api from '../api/api';
-import toast from 'react-hot-toast';
 
 const RegisterPage = () => {
     const [loader, setLoader] = useState(false);
